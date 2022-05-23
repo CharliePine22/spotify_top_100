@@ -8,9 +8,9 @@ user_date_input = input(
     'What year would you like to grab the top 100 songs? Please enter in YYYY-MM-DD format(1994-11-30): ')
 
 # Spotify API Authentication
-SPOTIFY_CLIENT_ID = "3a70afa9732749a2b07262054aca5873"
-SPOTIFY_CLIENT_SECRET = "25570a8cac6e4beca8d60af1a6e3b75f"
-SPOTIFY_DIRECT_URL = "https://developer.spotify.com/dashboard/applications/3a70afa9732749a2b07262054aca5873"
+SPOTIFY_CLIENT_ID = SPOTIFY_CLIENT_ID
+SPOTIFY_CLIENT_SECRET = SPOTIFY_CLIENT_SECRET
+SPOTIFY_DIRECT_URL = SPOTIFY_DIRECT_URL
 SPOTIPY_REDIRECT_URI = "http://example.com"
 
 # Gaining access to spotify profile
